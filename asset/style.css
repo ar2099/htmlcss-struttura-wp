@@ -28,7 +28,7 @@
 }
 
 #terzo {
-    height: 550px;
+    height: 650px;
     background-color: #ABCFE7;
 }
 
@@ -44,14 +44,24 @@
 /* impostazioni relative ai div interni 
 al terzo  pannello  */
 
-
-.colonna {
-    width: calc(100% / 3);
+.interno {
     background-color: yellow;
-    height: 100%;
     display: inline-block;
     float: left;
     border: 4px solid red;
+}
+
+.riga {
+    width: 100%;
+    height: 20%;
+}
+.colonna {
+    width: 22.5%; 
+    height: 80%; 
+}
+
+#centrale {
+width: 55%;
 }
 
 .clearfix::after{
