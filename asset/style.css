@@ -9,9 +9,28 @@
 /* fine reset */
 
 
-div {
-    background-color: blueviolet;
+.blocco {
     width: 80%;
     height: 100px;
-    margin: 20px auto;
+    margin: 25px auto;
+}
+
+#primo {
+    height: 130px;
+    background-color: #E579E6;
+}
+
+#secondo {
+    height: 500px;
+    background-color: #E1D67A;
+}
+
+#terzo {
+    height: 550px;
+    background-color: #ABCFE7;
+}
+
+#quarto {
+    height: 80px;
+    background-color: #8801FE;
 }
