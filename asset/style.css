@@ -5,3 +5,13 @@
     padding: 0px;
     margin: 0px;
 }
+
+/* fine reset */
+
+
+div {
+    background-color: blueviolet;
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+}
